@@ -1,0 +1,43 @@
+
+[
+  {
+    "text": "Your bank account will be blocked today. Tell me your OTP immediately.",
+    "expected": ["urgency", "otp_pii"]
+  },
+  {
+    "text": "Aapka bank account band ho jayega. Abhi OTP bataiye.",
+    "expected": ["urgency", "otp_pii"]
+  },
+  {
+    "text": "Your KYC has expired. Share your Aadhaar number and bank details to avoid suspension.",
+    "expected": ["urgency", "otp_pii"]
+  },
+  {
+    "text": "I am calling from the police department. Transfer the money now or you will be arrested.",
+    "expected": ["urgency", "authority", "payment"]
+  },
+  {
+    "text": "Main bank se bol raha hoon. Account verify karne ke liye OTP aur PIN batao.",
+    "expected": ["authority", "otp_pii"]
+  },
+  {
+    "text": "Pay the outstanding fee immediately or your electricity connection will be disconnected.",
+    "expected": ["urgency", "payment"]
+  },
+  {
+    "text": "Please call me tomorrow when you have time.",
+    "expected": []
+  },
+  {
+    "text": "Your appointment is confirmed for 3 PM. Thank you.",
+    "expected": []
+  },
+  {
+    "text": "Aap kal office aa sakte hain? Meeting 11 baje hai.",
+    "expected": []
+  },
+  {
+    "text": "Please send me the report when convenient.",
+    "expected": []
+  }
+]

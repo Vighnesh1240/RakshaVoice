@@ -1,0 +1,5 @@
+﻿filename,language,language_probability,duration_seconds,transcript,urgency_score,urgency_detected,authority_score,authority_detected,otp_pii_score,otp_pii_detected,payment_score,payment_detected,pipeline_latency_ms,error
+10.wav,en,0.9917,8.3,"And the earth was without form, and void, and darkness was upon the face of the deep. And the spur of God moved upon the face of the voidest.",0.0274,False,0.0916,False,0.9318,True,0.0036,False,2801.23,
+1959.wav,en,0.9937,18.55,"This was the basic difference, the Africans, when they escaped from their respective countries that were still colonized, they didn't try and run away from the problem. But as soon as they got where they were going, they then began to organize into pressure groups to get governmental support at the international level.",0.0178,False,0.1033,False,0.3138,False,0.0139,False,948.99,
+4.wav,en,0.7964,0.99,Um,0.0324,False,0.1872,False,0.9508,True,0.9575,True,469.55,
+test16k.wav,en,0.9521,11.91,"Hello, my name is Dignesh Thakur, can you give me some money, around 20,000 rupees? I want to submit the fees of my college.",0.0641,False,0.0105,False,0.532,True,0.0177,False,646.7,

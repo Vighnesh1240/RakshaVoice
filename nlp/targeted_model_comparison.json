@@ -1,0 +1,1466 @@
+{
+  "device": "cuda",
+  "case_count": 30,
+  "summaries": {
+    "v1": {
+      "version": "text_v1",
+      "total_cases": 30,
+      "exact_matches": 15,
+      "exact_match_accuracy": 0.5,
+      "label_accuracy": 0.7833333333333333
+    },
+    "v2": {
+      "version": "text_v2",
+      "total_cases": 30,
+      "exact_matches": 9,
+      "exact_match_accuracy": 0.3,
+      "label_accuracy": 0.7083333333333334
+    }
+  },
+  "results": {
+    "v1": [
+      {
+        "id": "D01",
+        "lang": "English",
+        "text": "Your bank account will be blocked today unless you verify immediately.",
+        "expected": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.6124482154846191,
+          0.04804126173257828,
+          0.0818474218249321,
+          0.13518767058849335
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D02",
+        "lang": "English",
+        "text": "Please share your OTP to complete verification.",
+        "expected": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "scores": [
+          0.09838395565748215,
+          0.013903280720114708,
+          0.08286820352077484,
+          0.021233314648270607
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D03",
+        "lang": "English",
+        "text": "I am calling from the police cybercrime department. Transfer the money now or face arrest.",
+        "expected": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "scores": [
+          0.35553187131881714,
+          0.08732247352600098,
+          0.018764983862638474,
+          0.01404048502445221
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D04",
+        "lang": "English",
+        "text": "Send the processing fee immediately to prevent your electricity connection from being disconnected.",
+        "expected": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "scores": [
+          0.30170759558677673,
+          0.027810556814074516,
+          0.10312994569540024,
+          0.12068550288677216
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D05",
+        "lang": "English",
+        "text": "Your bank statement is ready in the official banking app.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.28736528754234314,
+          0.040952518582344055,
+          0.029426099732518196,
+          0.0642469972372055
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D06",
+        "lang": "English",
+        "text": "Never share your OTP or PIN with anyone over the phone.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.3517768085002899,
+          0.06243876367807388,
+          0.1513746976852417,
+          0.05753060057759285
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D07",
+        "lang": "English",
+        "text": "Please call me tomorrow when you have time.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.020741505548357964,
+          0.00372796761803329,
+          0.04347566142678261,
+          0.002138158306479454
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D08",
+        "lang": "English",
+        "text": "I am from your bank's fraud department. Tell me your card PIN to secure your account.",
+        "expected": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "scores": [
+          0.33569684624671936,
+          0.061292290687561035,
+          0.46876898407936096,
+          0.038330078125
+        ],
+        "predictions": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D09",
+        "lang": "English",
+        "text": "Your payment was received successfully. Thank you.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.06118246167898178,
+          0.001779627171345055,
+          0.01211110595613718,
+          0.005509634502232075
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D10",
+        "lang": "English",
+        "text": "Pay this outstanding invoice by the stated due date using the official website.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.11010901629924774,
+          0.004718114156275988,
+          0.015759645029902458,
+          0.05143912136554718
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D11",
+        "lang": "Hinglish",
+        "text": "Aapka account aaj band ho jayega. Abhi verify karo.",
+        "expected": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.4691396951675415,
+          0.24727293848991394,
+          0.3894924819469452,
+          0.15618887543678284
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D12",
+        "lang": "Hinglish",
+        "text": "Refund ke liye apna OTP aur PIN batao.",
+        "expected": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "scores": [
+          0.23169918358325958,
+          0.06977933645248413,
+          0.25355592370033264,
+          0.17974644899368286
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D13",
+        "lang": "Hinglish",
+        "text": "Main police cyber cell se bol raha hoon. Abhi paise transfer karo warna arrest honge.",
+        "expected": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "scores": [
+          0.16209739446640015,
+          0.027151724323630333,
+          0.16244398057460785,
+          0.029921306297183037
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D14",
+        "lang": "Hinglish",
+        "text": "Bijli connection band hone se bachane ke liye abhi fee bhejo.",
+        "expected": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "scores": [
+          0.16149289906024933,
+          0.05652472376823425,
+          0.00514173274859786,
+          0.019839739426970482
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D15",
+        "lang": "Hinglish",
+        "text": "Aapka bank statement app par available hai.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.3833557069301605,
+          0.07625600695610046,
+          0.027881363406777382,
+          0.05034657567739487
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D16",
+        "lang": "Hinglish",
+        "text": "Apna OTP kisi ke saath share mat karna.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.1099025085568428,
+          0.031277846544981,
+          0.059602294117212296,
+          0.20754371583461761
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D17",
+        "lang": "Hinglish",
+        "text": "Kal meeting 11 baje hai. Please time par aana.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.0807475671172142,
+          0.02869890071451664,
+          0.02605353482067585,
+          0.0310584157705307
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D18",
+        "lang": "Hinglish",
+        "text": "Main bank ke security department se hoon. Account secure karne ke liye PIN batao.",
+        "expected": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "scores": [
+          0.5425935983657837,
+          0.15547260642051697,
+          0.12367546558380127,
+          0.14402100443840027
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D19",
+        "lang": "Hinglish",
+        "text": "Aapka payment successfully receive ho gaya hai.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.09616239368915558,
+          0.010260410606861115,
+          0.07695493847131729,
+          0.054583512246608734
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D20",
+        "lang": "Hinglish",
+        "text": "Official app par bill ki due date check kar lena.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.26536494493484497,
+          0.03419381007552147,
+          0.021928250789642334,
+          0.19156600534915924
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D21",
+        "lang": "Hindi",
+        "text": "आज ही अपना खाता सत्यापित करें, नहीं तो आपका खाता बंद हो जाएगा।",
+        "expected": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.41482263803482056,
+          0.1623116433620453,
+          0.08591299504041672,
+          0.359860360622406
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D22",
+        "lang": "Hindi",
+        "text": "सत्यापन पूरा करने के लिए कृपया अपना ओटीपी बताइए।",
+        "expected": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "scores": [
+          0.20564207434654236,
+          0.07592785358428955,
+          0.11819293349981308,
+          0.38697221875190735
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D23",
+        "lang": "Hindi",
+        "text": "मैं पुलिस साइबर अपराध विभाग से बोल रहा हूँ। अभी पैसे ट्रांसफर करो, वरना तुम्हें गिरफ्तार कर लिया जाएगा।",
+        "expected": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "scores": [
+          0.3882810175418854,
+          0.13079383969306946,
+          0.0343538299202919,
+          0.47243696451187134
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D24",
+        "lang": "Hindi",
+        "text": "बिजली का कनेक्शन कटने से बचाने के लिए तुरंत शुल्क भेजें।",
+        "expected": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "scores": [
+          0.3568967282772064,
+          0.10431884229183197,
+          0.07522454857826233,
+          0.48496541380882263
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D25",
+        "lang": "Hindi",
+        "text": "आपका बैंक स्टेटमेंट आधिकारिक ऐप पर उपलब्ध है।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.16159389913082123,
+          0.0331411249935627,
+          0.01600078120827675,
+          0.19526216387748718
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D26",
+        "lang": "Hindi",
+        "text": "अपना ओटीपी या पिन किसी के साथ साझा न करें।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.26831120252609253,
+          0.10069086402654648,
+          0.07488979399204254,
+          0.2728675603866577
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D27",
+        "lang": "Hindi",
+        "text": "कल सुबह ग्यारह बजे हमारी बैठक है।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.030299562960863113,
+          0.016233433037996292,
+          0.01692390814423561,
+          0.044316478073596954
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D28",
+        "lang": "Hindi",
+        "text": "मैं बैंक के सुरक्षा विभाग से बोल रहा हूँ। अपना पिन बताइए ताकि आपका खाता सुरक्षित किया जा सके।",
+        "expected": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "scores": [
+          0.24243780970573425,
+          0.09310653805732727,
+          0.061617497354745865,
+          0.2640644907951355
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D29",
+        "lang": "Hindi",
+        "text": "आपका भुगतान सफलतापूर्वक प्राप्त हो गया है। धन्यवाद।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.0819723904132843,
+          0.008686047047376633,
+          0.030883824452757835,
+          0.05982588231563568
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D30",
+        "lang": "Hindi",
+        "text": "कृपया अपनी सुविधा के अनुसार रिपोर्ट भेज दें।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.10560081899166107,
+          0.022758131846785545,
+          0.039171621203422546,
+          0.07133739441633224
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      }
+    ],
+    "v2": [
+      {
+        "id": "D01",
+        "lang": "English",
+        "text": "Your bank account will be blocked today unless you verify immediately.",
+        "expected": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.6754421591758728,
+          0.7552787661552429,
+          0.17905402183532715,
+          0.6698740124702454
+        ],
+        "predictions": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D02",
+        "lang": "English",
+        "text": "Please share your OTP to complete verification.",
+        "expected": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "scores": [
+          0.26711222529411316,
+          0.6687341332435608,
+          0.24867089092731476,
+          0.47135400772094727
+        ],
+        "predictions": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D03",
+        "lang": "English",
+        "text": "I am calling from the police cybercrime department. Transfer the money now or face arrest.",
+        "expected": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "scores": [
+          0.8246203660964966,
+          0.9868401288986206,
+          0.0717107281088829,
+          0.47748515009880066
+        ],
+        "predictions": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D04",
+        "lang": "English",
+        "text": "Send the processing fee immediately to prevent your electricity connection from being disconnected.",
+        "expected": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "scores": [
+          0.34567931294441223,
+          0.5891996026039124,
+          0.18947212398052216,
+          0.6227225065231323
+        ],
+        "predictions": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D05",
+        "lang": "English",
+        "text": "Your bank statement is ready in the official banking app.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.39148303866386414,
+          0.4878935217857361,
+          0.09416821599006653,
+          0.31010961532592773
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D06",
+        "lang": "English",
+        "text": "Never share your OTP or PIN with anyone over the phone.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.38552725315093994,
+          0.7684905529022217,
+          0.22217904031276703,
+          0.4881558120250702
+        ],
+        "predictions": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D07",
+        "lang": "English",
+        "text": "Please call me tomorrow when you have time.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.10815782845020294,
+          0.6309908628463745,
+          0.0888981819152832,
+          0.23465651273727417
+        ],
+        "predictions": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D08",
+        "lang": "English",
+        "text": "I am from your bank's fraud department. Tell me your card PIN to secure your account.",
+        "expected": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "scores": [
+          0.6563765406608582,
+          0.8088558316230774,
+          0.6070983409881592,
+          0.4947564899921417
+        ],
+        "predictions": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D09",
+        "lang": "English",
+        "text": "Your payment was received successfully. Thank you.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.2267666459083557,
+          0.23110473155975342,
+          0.05377060920000076,
+          0.25024470686912537
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D10",
+        "lang": "English",
+        "text": "Pay this outstanding invoice by the stated due date using the official website.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.3047863841056824,
+          0.5384723544120789,
+          0.07458555698394775,
+          0.7159677743911743
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D11",
+        "lang": "Hinglish",
+        "text": "Aapka account aaj band ho jayega. Abhi verify karo.",
+        "expected": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.6907281875610352,
+          0.6251918077468872,
+          0.22391939163208008,
+          0.5240849852561951
+        ],
+        "predictions": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D12",
+        "lang": "Hinglish",
+        "text": "Refund ke liye apna OTP aur PIN batao.",
+        "expected": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "scores": [
+          0.3597225546836853,
+          0.6235631108283997,
+          0.4871419072151184,
+          0.6881173253059387
+        ],
+        "predictions": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D13",
+        "lang": "Hinglish",
+        "text": "Main police cyber cell se bol raha hoon. Abhi paise transfer karo warna arrest honge.",
+        "expected": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "scores": [
+          0.5362760424613953,
+          0.8701907396316528,
+          0.09828393906354904,
+          0.27972352504730225
+        ],
+        "predictions": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D14",
+        "lang": "Hinglish",
+        "text": "Bijli connection band hone se bachane ke liye abhi fee bhejo.",
+        "expected": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "scores": [
+          0.5144391655921936,
+          0.48920661211013794,
+          0.006464650388807058,
+          0.3486892282962799
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D15",
+        "lang": "Hinglish",
+        "text": "Aapka bank statement app par available hai.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.1279018670320511,
+          0.03537852689623833,
+          0.021826744079589844,
+          0.04783483222126961
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D16",
+        "lang": "Hinglish",
+        "text": "Apna OTP kisi ke saath share mat karna.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.14107869565486908,
+          0.4316665828227997,
+          0.11897295713424683,
+          0.5141085386276245
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D17",
+        "lang": "Hinglish",
+        "text": "Kal meeting 11 baje hai. Please time par aana.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.25550681352615356,
+          0.3647153973579407,
+          0.023168563842773438,
+          0.201395645737648
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D18",
+        "lang": "Hinglish",
+        "text": "Main bank ke security department se hoon. Account secure karne ke liye PIN batao.",
+        "expected": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "scores": [
+          0.7414410710334778,
+          0.8515645265579224,
+          0.20990970730781555,
+          0.6420511603355408
+        ],
+        "predictions": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D19",
+        "lang": "Hinglish",
+        "text": "Aapka payment successfully receive ho gaya hai.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.15625886619091034,
+          0.23484034836292267,
+          0.12975719571113586,
+          0.34970822930336
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D20",
+        "lang": "Hinglish",
+        "text": "Official app par bill ki due date check kar lena.",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.30916914343833923,
+          0.24419721961021423,
+          0.010446988046169281,
+          0.3836256265640259
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D21",
+        "lang": "Hindi",
+        "text": "आज ही अपना खाता सत्यापित करें, नहीं तो आपका खाता बंद हो जाएगा।",
+        "expected": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.5841213464736938,
+          0.43542933464050293,
+          0.1187417134642601,
+          0.6584007740020752
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D22",
+        "lang": "Hindi",
+        "text": "सत्यापन पूरा करने के लिए कृपया अपना ओटीपी बताइए।",
+        "expected": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "scores": [
+          0.3009830713272095,
+          0.36380597949028015,
+          0.1833794116973877,
+          0.7241309285163879
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D23",
+        "lang": "Hindi",
+        "text": "मैं पुलिस साइबर अपराध विभाग से बोल रहा हूँ। अभी पैसे ट्रांसफर करो, वरना तुम्हें गिरफ्तार कर लिया जाएगा।",
+        "expected": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "scores": [
+          0.7922335267066956,
+          0.8965611457824707,
+          0.0625075250864029,
+          0.8925595879554749
+        ],
+        "predictions": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D24",
+        "lang": "Hindi",
+        "text": "बिजली का कनेक्शन कटने से बचाने के लिए तुरंत शुल्क भेजें।",
+        "expected": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "scores": [
+          0.38125550746917725,
+          0.28789040446281433,
+          0.07209346443414688,
+          0.7569044828414917
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D25",
+        "lang": "Hindi",
+        "text": "आपका बैंक स्टेटमेंट आधिकारिक ऐप पर उपलब्ध है।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.19486530125141144,
+          0.14893662929534912,
+          0.025899682193994522,
+          0.41071850061416626
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D26",
+        "lang": "Hindi",
+        "text": "अपना ओटीपी या पिन किसी के साथ साझा न करें।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.3587411046028137,
+          0.48795464634895325,
+          0.08807437121868134,
+          0.5916005969047546
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D27",
+        "lang": "Hindi",
+        "text": "कल सुबह ग्यारह बजे हमारी बैठक है।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.1437617540359497,
+          0.34698808193206787,
+          0.04427759349346161,
+          0.5016599297523499
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D28",
+        "lang": "Hindi",
+        "text": "मैं बैंक के सुरक्षा विभाग से बोल रहा हूँ। अपना पिन बताइए ताकि आपका खाता सुरक्षित किया जा सके।",
+        "expected": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "scores": [
+          0.4479982554912567,
+          0.48284009099006653,
+          0.09754157811403275,
+          0.6578651666641235
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exact_match": false
+      },
+      {
+        "id": "D29",
+        "lang": "Hindi",
+        "text": "आपका भुगतान सफलतापूर्वक प्राप्त हो गया है। धन्यवाद।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.20544925332069397,
+          0.2521132528781891,
+          0.05391857400536537,
+          0.49406784772872925
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exact_match": true
+      },
+      {
+        "id": "D30",
+        "lang": "Hindi",
+        "text": "कृपया अपनी सुविधा के अनुसार रिपोर्ट भेज दें।",
+        "expected": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          0.2509763836860657,
+          0.41103655099868774,
+          0.05865457281470299,
+          0.5700058341026306
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "exact_match": false
+      }
+    ]
+  }
+}

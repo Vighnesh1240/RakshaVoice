@@ -1,0 +1,34 @@
+{
+  "dev": {
+    "EER": 0.005483169503621609,
+    "best_epoch": 2
+  },
+  "eval": {
+    "EER": 0.024438021069730788,
+    "AUC": 0.9972481496983002,
+    "threshold": 0.11593872308731079,
+    "FAR": 0.024485798237022526,
+    "FRR": 0.024390243902439046
+  },
+  "eval_clips": 20000,
+  "label_convention": {
+    "0": "bonafide",
+    "1": "spoof"
+  },
+  "far_definition": "Bonafide speech incorrectly flagged as spoof at the EER operating threshold",
+  "frr_definition": "Spoof speech incorrectly accepted as bonafide at the EER operating threshold",
+  "in_the_wild": {
+    "EER": 0.27083333333333337,
+    "AUC": 0.7222222222222222,
+    "threshold": 0.9997643828392029,
+    "FAR": 0.20833333333333334,
+    "FRR": 0.33333333333333337,
+    "clips": 30,
+    "retrained": false,
+    "random_seed": 0,
+    "label_convention": {
+      "0": "bonafide",
+      "1": "spoof"
+    }
+  }
+}

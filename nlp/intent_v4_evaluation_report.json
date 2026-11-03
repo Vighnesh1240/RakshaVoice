@@ -1,0 +1,91 @@
+{
+  "model": "intent_v4 production score_text",
+  "test_records": 300,
+  "labels": [
+    "urgency",
+    "authority",
+    "otp_pii",
+    "payment"
+  ],
+  "evaluation_note": "Metrics reflect the current production pipeline, including configured thresholds and contextual fallback. Results depend on the quality of test.csv labels.",
+  "exact_match_accuracy": 0.49666666666666665,
+  "per_label": {
+    "urgency": {
+      "precision": 1.0,
+      "recall": 0.28846153846153844,
+      "f1": 0.44776119402985076,
+      "support": 52,
+      "predicted_positive": 15,
+      "confusion_matrix": [
+        [
+          248,
+          0
+        ],
+        [
+          37,
+          15
+        ]
+      ]
+    },
+    "authority": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 10,
+      "predicted_positive": 0,
+      "confusion_matrix": [
+        [
+          290,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    "otp_pii": {
+      "precision": 1.0,
+      "recall": 0.00909090909090909,
+      "f1": 0.018018018018018018,
+      "support": 110,
+      "predicted_positive": 1,
+      "confusion_matrix": [
+        [
+          190,
+          0
+        ],
+        [
+          109,
+          1
+        ]
+      ]
+    },
+    "payment": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 6,
+      "predicted_positive": 2,
+      "confusion_matrix": [
+        [
+          292,
+          2
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    }
+  },
+  "micro_precision": 0.8888888888888888,
+  "micro_recall": 0.0898876404494382,
+  "micro_f1": 0.16326530612244897,
+  "macro_precision": 0.5,
+  "macro_recall": 0.07438811188811188,
+  "macro_f1": 0.11644480301196719,
+  "weighted_precision": 0.9101123595505618,
+  "weighted_recall": 0.08988764044943819,
+  "weighted_f1": 0.1419413711883945
+}

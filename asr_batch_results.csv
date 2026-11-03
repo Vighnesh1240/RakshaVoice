@@ -1,0 +1,55 @@
+﻿filename,scenario,condition,language_requested,language_detected,latency_ms,wer,reference,transcript,empty_transcript
+en_norm_deliv__clean.wav,en_norm_deliv,clean,en,en,397.3,0.0,"Your courier is out for delivery, please keep your phone nearby.",Your courier is out for delivery. Please keep your phone nearby.,False
+en_norm_deliv__far.wav,en_norm_deliv,far,en,en,344.5,0.0,"Your courier is out for delivery, please keep your phone nearby.",Your courier is out for delivery. Please keep your phone nearby.,False
+en_norm_deliv__raw.wav,en_norm_deliv,raw,en,en,308.9,0.0,"Your courier is out for delivery, please keep your phone nearby.",Your courier is out for delivery. Please keep your phone nearby.,False
+en_norm_emi__clean.wav,en_norm_emi,clean,en,en,401.2,0.1429,"Hello, this is a reminder that your EMI will be debited on the tenth.","Hello, this is a reminder that your EMI will be debuted on the 10th.",False
+en_norm_emi__far.wav,en_norm_emi,far,en,en,374.5,0.1429,"Hello, this is a reminder that your EMI will be debited on the tenth.","Hello, this is a reminder that your EMI will be devoted on the 10th.",False
+en_norm_emi__raw.wav,en_norm_emi,raw,en,en,428.2,0.0714,"Hello, this is a reminder that your EMI will be debited on the tenth.","Hello, this is a reminder that your EMI will be debited on the 10th.",False
+en_norm_warn__clean.wav,en_norm_warn,clean,en,en,416.5,0.0,"Please never share your OTP or PIN with anyone, even bank staff.","Please never share your OTP or PIN with anyone, even bank staff.",False
+en_norm_warn__far.wav,en_norm_warn,far,en,en,397.0,0.0,"Please never share your OTP or PIN with anyone, even bank staff.","Please never share your OTP or PIN with anyone, even bank staff.",False
+en_norm_warn__raw.wav,en_norm_warn,raw,en,en,403.3,0.0,"Please never share your OTP or PIN with anyone, even bank staff.","Please never share your OTP or PIN with anyone, even bank staff.",False
+en_scam_otp__clean.wav,en_scam_otp,clean,en,en,446.7,0.0667,"Sir, I am calling from your bank. Please tell me the OTP you just received.","Sir, I am calling you from your bank. Please tell me the OTP you just received.",False
+en_scam_otp__far.wav,en_scam_otp,far,en,en,391.9,0.0,"Sir, I am calling from your bank. Please tell me the OTP you just received.","Sir, I am calling from your bank. Please tell me the OTP you just received",False
+en_scam_otp__raw.wav,en_scam_otp,raw,en,en,390.4,0.0,"Sir, I am calling from your bank. Please tell me the OTP you just received.","Sir, I am calling from your bank. Please tell me the OTP you just received.",False
+en_scam_pay__clean.wav,en_scam_pay,clean,en,en,346.2,0.1429,Please transfer five thousand rupees to this account right now to clear your penalty.,Please transfer 5000 rupees to this account right now to clear your penalty.,False
+en_scam_pay__far.wav,en_scam_pay,far,en,en,351.0,0.1429,Please transfer five thousand rupees to this account right now to clear your penalty.,Please transfer 5000 rupees to this account right now to clear your penalty.,False
+en_scam_pay__raw.wav,en_scam_pay,raw,en,en,295.6,0.1429,Please transfer five thousand rupees to this account right now to clear your penalty.,Please transfer 5000 rupees to this account right now to clear your penalty.,False
+en_scam_police__clean.wav,en_scam_police,clean,en,en,361.3,0.0526,This is the cyber crime police. Your Aadhaar is linked to a case and you will be arrested today.,This is the cyber crime police. Your adhaar is linked to a case and you will be arrested today.,False
+en_scam_police__far.wav,en_scam_police,far,en,en,346.2,0.0526,This is the cyber crime police. Your Aadhaar is linked to a case and you will be arrested today.,This is the cyber crime police. Your Adhaar is linked to a case and you will be arrested today.,False
+en_scam_police__raw.wav,en_scam_police,raw,en,en,368.5,0.0526,This is the cyber crime police. Your Aadhaar is linked to a case and you will be arrested today.,This is the cyber crime police. Your adhaar is linked to a case and you will be arrested today.,False
+hg_norm_deliv__clean.wav,hg_norm_deliv,clean,hi,hi,589.3,1.5,Aapka parcel kal subah tak deliver ho jayega.,आपका पार्सल कल सुबा तक पूँच जाएगा,False
+hg_norm_deliv__far.wav,hg_norm_deliv,far,hi,hi,603.4,1.625,Aapka parcel kal subah tak deliver ho jayega.,अपका पर्सल कल सुबा तगे डिलीवर हो जाएगा,False
+hg_norm_deliv__raw.wav,hg_norm_deliv,raw,hi,hi,666.2,1.875,Aapka parcel kal subah tak deliver ho jayega.,आपका पार्सल कल सुबात कर दिलिएवर हूँजाएगा,False
+hg_norm_emi__clean.wav,hg_norm_emi,clean,hi,hi,590.8,1.5,"Aapki EMI dus tareekh ko kategi, balance rakhiyega.",अपकी EMI 10 ताजी को कटेगी बलेंस रख्येगा,False
+hg_norm_emi__far.wav,hg_norm_emi,far,hi,hi,610.2,2.0,"Aapki EMI dus tareekh ko kategi, balance rakhiyega.",अपकी येमाई दस तारीख को कटेगी पलेंस रख्येगा,False
+hg_norm_emi__raw.wav,hg_norm_emi,raw,hi,hi,592.3,1.75,"Aapki EMI dus tareekh ko kategi, balance rakhiyega.",अपकी ये मैंदस तारीक को कटेगी बलेंसर अगीगा,False
+hg_norm_warn__clean.wav,hg_norm_warn,clean,hi,hi,656.6,1.5556,"OTP kisi ko mat batana, bank kabhi nahi maangta.",अदिपी की जी को मत बताना बैंक कभी नहीं मागता,False
+hg_norm_warn__far.wav,hg_norm_warn,far,hi,hi,668.9,1.7778,"OTP kisi ko mat batana, bank kabhi nahi maangta.",अदिपी किसी को मत बताना पैंक कभी नहीं मगता आई पसकते है,False
+hg_norm_warn__raw.wav,hg_norm_warn,raw,hi,hi,502.8,1.7778,"OTP kisi ko mat batana, bank kabhi nahi maangta.",मोड्टीपी की सिकु मत बताना बेंक कभी नहीं मामता,False
+hg_scam_otp__clean.wav,hg_scam_otp,clean,hi,hi,1964.6,4.9,"Sir aapka account block ho jayega, abhi apna OTP bataiye.",ज़ाँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ बद्याँ,False
+hg_scam_otp__far.wav,hg_scam_otp,far,hi,hi,2219.3,7.4,"Sir aapka account block ho jayega, abhi apna OTP bataiye.",तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो �,False
+hg_scam_otp__raw.wav,hg_scam_otp,raw,hi,hi,842.2,1.9,"Sir aapka account block ho jayega, abhi apna OTP bataiye.",अपका बैंक काकाूंट ब्लोक हो जाएगा अभी अबना अद्टे पी बताएए.,False
+hg_scam_pay__clean.wav,hg_scam_pay,clean,hi,hi,744.0,1.9167,Processing fee ke liye abhi paanch hazaar rupaye UPI se bhej dijiye.,प्रोँसेस्सिंग फीगे लिए अभी पाज़ा रुपे यूप्या इसे भेजदीजीए,False
+hg_scam_pay__far.wav,hg_scam_pay,far,hi,hi,2052.2,4.9167,Processing fee ke liye abhi paanch hazaar rupaye UPI se bhej dijiye.,अदिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज़ाद़ा लिए ब्रज�,False
+hg_scam_pay__raw.wav,hg_scam_pay,raw,hi,hi,729.3,2.0833,Processing fee ke liye abhi paanch hazaar rupaye UPI se bhej dijiye.,प्रोँसेसिंग फीगे लिए बी पाँच्चा जा रुपे यूपिय से बेच्तीजीए,False
+hg_scam_police__clean.wav,hg_scam_police,clean,hi,hi,549.5,1.1538,"Main CBI officer bol raha hoon, aapke naam par case darj hua hai.","मैं CBI officer बोल रहा हूं, आपके नाम पर के श्धर्ज हूँ है",False
+hg_scam_police__far.wav,hg_scam_police,far,hi,hi,540.8,1.0769,"Main CBI officer bol raha hoon, aapke naam par case darj hua hai.",मैं CBI officer बोल रहा हूं अपके नाम पर केस नगर जुःा है,False
+hg_scam_police__raw.wav,hg_scam_police,raw,hi,hi,554.6,1.1538,"Main CBI officer bol raha hoon, aapke naam par case darj hua hai.",मैं CBI oficer बोल रहा हुं अपके नामपर के संदर जुए है,False
+hi_norm_deliv__clean.wav,hi_norm_deliv,clean,hi,hi,454.8,0.4167,आपका पार्सल कल सुबह तक पहुँच जाएगा。,आपका परसल कल सुबा तक पूँच जाएगा,False
+hi_norm_deliv__far.wav,hi_norm_deliv,far,hi,hi,522.0,0.4167,आपका पार्सल कल सुबह तक पहुँच जाएगा。,अपका पार्सलिकल सुब तक पूँच चाईगा,False
+hi_norm_deliv__raw.wav,hi_norm_deliv,raw,hi,hi,517.1,0.3333,आपका पार्सल कल सुबह तक पहुँच जाएगा。,आपका पार्जल कल सुबा तक पूँज जाएगा,False
+hi_norm_emi__clean.wav,hi_norm_emi,clean,hi,hi,559.3,0.625,"आपकी ईएमआई दस तारीख को कटेगी, कृपया बैलेंस रखिएगा।",आपकी EMI 10 तारीक को कतेगी क्रिप्या बलेंस रख्येगा,False
+hi_norm_emi__far.wav,hi_norm_emi,far,hi,hi,634.0,0.75,"आपकी ईएमआई दस तारीख को कटेगी, कृपया बैलेंस रखिएगा।",अपकी येमाइत स्थारीक को कटेगी के प्या बलन्स रख्येगा,False
+hi_norm_emi__raw.wav,hi_norm_emi,raw,hi,hi,639.2,0.625,"आपकी ईएमआई दस तारीख को कटेगी, कृपया बैलेंस रखिएगा।",अपकी माई दस्तारीक को कटेगी क्रिप्या बलेंसर रखेगा,False
+hi_norm_warn__clean.wav,hi_norm_warn,clean,hi,hi,556.0,0.4667,"अपना ओटीपी किसी को न बताएँ, बैंक कभी नहीं माँगता।",अपना अदेपी की सी को नहीं बआईग कभी नहीं वंगता,False
+hi_norm_warn__far.wav,hi_norm_warn,far,hi,hi,510.0,0.4667,"अपना ओटीपी किसी को न बताएँ, बैंक कभी नहीं माँगता।",अपना अटी पी की जी को नहीं बैंक कभी नहीं मगता,False
+hi_norm_warn__raw.wav,hi_norm_warn,raw,hi,hi,511.8,0.4,"अपना ओटीपी किसी को न बताएँ, बैंक कभी नहीं माँगता।",अपना अटीप की खोन अबताए बेंक कभी नहीं मगता,False
+hi_scam_otp__clean.wav,hi_scam_otp,clean,hi,hi,707.5,0.5,"आपका खाता बंद हो जाएगा, अभी अपना ओटीपी बताइए।",अपका काता बन्त हुजाएका अभी अपना अड़़ पी बताएए,False
+hi_scam_otp__far.wav,hi_scam_otp,far,hi,hi,2168.5,0.9286,"आपका खाता बंद हो जाएगा, अभी अपना ओटीपी बताइए।",अपका कब आप द़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़़,False
+hi_scam_otp__raw.wav,hi_scam_otp,raw,hi,hi,800.9,0.6429,"आपका खाता बंद हो जाएगा, अभी अपना ओटीपी बताइए।",अपका काटा बन दोजाएगा भी अपना उटी भी बताएगे,False
+hi_scam_pay__clean.wav,hi_scam_pay,clean,hi,hi,991.9,0.3636,प्रोसेसिंग फीस के लिए अभी पाँच हज़ार रुपये भेज दीजिए।,प्रुसेस्सिंग फीगे लिए अभी पाई त्जा रुबे बेज दीजिए,False
+hi_scam_pay__far.wav,hi_scam_pay,far,hi,hi,1317.5,0.5,प्रोसेसिंग फीस के लिए अभी पाँच हज़ार रुपये भेज दीजिए।,प्रुषेस्ट्शिंग फीज़ के लिए अभी पाज्च चाद रुपे पेजदीजिए,False
+hi_scam_pay__raw.wav,hi_scam_pay,raw,hi,hi,952.1,0.3636,प्रोसेसिंग फीस के लिए अभी पाँच हज़ार रुपये भेज दीजिए।,प्रुसेस्सिंग फीज्के लिए भी पाँची जारुपे भेईस दीजे,False
+hi_scam_police__clean.wav,hi_scam_police,clean,hi,hi,999.5,0.3478,"मैं सीबीआई अधिकारी बोल रहा हूँ, आपके खिलाफ वारंट जारी हुआ है।",मैं CBI अदिकारी बोल रहा हूं आपके किलाफ वारेंट जाडी हूँ आई,False
+hi_scam_police__far.wav,hi_scam_police,far,hi,hi,2630.5,3.1304,"मैं सीबीआई अधिकारी बोल रहा हूँ, आपके खिलाफ वारंट जारी हुआ है।",बच्छदबाद्दादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादादा�,False
+hi_scam_police__raw.wav,hi_scam_police,raw,hi,hi,967.2,0.6087,"मैं सीबीआई अधिकारी बोल रहा हूँ, आपके खिलाफ वारंट जारी हुआ है।",मैं सी भी या या दिखारी बोड रहा हूँ मुझा आपके किलाफ फोर्ण्ते जारी हूँँई,False

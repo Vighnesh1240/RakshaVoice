@@ -1,0 +1,129 @@
+{
+  "dataset": "D:\\RakshaVoice\\nlp\\data\\reviewed_test_gold.csv",
+  "transcripts": 300,
+  "total_chunks": 1288,
+  "chunk_size": 64,
+  "overlap": 16,
+  "configured_thresholds": {
+    "urgency": 0.5,
+    "authority": 0.5,
+    "otp_pii": 0.4,
+    "payment": 0.5
+  },
+  "aggregation_results": {
+    "max": {
+      "urgency": {
+        "precision": 1.0,
+        "recall": 0.052083333333333336,
+        "f1": 0.09900990099009901,
+        "support": 96,
+        "predicted_positive": 5,
+        "roc_auc": 0.5905841503267973,
+        "average_precision": 0.47137872511743917
+      },
+      "authority": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 200,
+        "predicted_positive": 0,
+        "roc_auc": 0.49534999999999996,
+        "average_precision": 0.6828343501803803
+      },
+      "otp_pii": {
+        "precision": 1.0,
+        "recall": 0.024390243902439025,
+        "f1": 0.047619047619047616,
+        "support": 123,
+        "predicted_positive": 3,
+        "roc_auc": 0.6176565155482063,
+        "average_precision": 0.5018293689054781
+      },
+      "payment": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1": 0.4,
+        "support": 2,
+        "predicted_positive": 3,
+        "roc_auc": 0.9370805369127516,
+        "average_precision": 0.524390243902439
+      }
+    },
+    "mean": {
+      "urgency": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 96,
+        "predicted_positive": 0,
+        "roc_auc": 0.6193321078431373,
+        "average_precision": 0.49104978600067917
+      },
+      "authority": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 200,
+        "predicted_positive": 0,
+        "roc_auc": 0.51725,
+        "average_precision": 0.6993338564788589
+      },
+      "otp_pii": {
+        "precision": 1.0,
+        "recall": 0.008130081300813009,
+        "f1": 0.016129032258064516,
+        "support": 123,
+        "predicted_positive": 1,
+        "roc_auc": 0.6360295806347894,
+        "average_precision": 0.5268268917594626
+      },
+      "payment": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2,
+        "predicted_positive": 0,
+        "roc_auc": 0.9211409395973155,
+        "average_precision": 0.5204081632653061
+      }
+    },
+    "top2_mean": {
+      "urgency": {
+        "precision": 1.0,
+        "recall": 0.010416666666666666,
+        "f1": 0.020618556701030927,
+        "support": 96,
+        "predicted_positive": 1,
+        "roc_auc": 0.6056474673202614,
+        "average_precision": 0.486322871466559
+      },
+      "authority": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 200,
+        "predicted_positive": 0,
+        "roc_auc": 0.4813,
+        "average_precision": 0.6767178118647745
+      },
+      "otp_pii": {
+        "precision": 1.0,
+        "recall": 0.016260162601626018,
+        "f1": 0.032,
+        "support": 123,
+        "predicted_positive": 2,
+        "roc_auc": 0.6270727114050801,
+        "average_precision": 0.5098450721231091
+      },
+      "payment": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2,
+        "predicted_positive": 0,
+        "roc_auc": 0.9211409395973155,
+        "average_precision": 0.5204081632653061
+      }
+    }
+  }
+}

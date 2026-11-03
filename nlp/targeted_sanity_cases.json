@@ -1,0 +1,213 @@
+[
+  {
+    "id": "D01",
+    "lang": "English",
+    "text": "Your bank account will be blocked today unless you verify immediately.",
+    "expected": [
+      "urgency"
+    ]
+  },
+  {
+    "id": "D02",
+    "lang": "English",
+    "text": "Please share your OTP to complete verification.",
+    "expected": [
+      "otp_pii"
+    ]
+  },
+  {
+    "id": "D03",
+    "lang": "English",
+    "text": "I am calling from the police cybercrime department. Transfer the money now or face arrest.",
+    "expected": [
+      "urgency",
+      "authority",
+      "payment"
+    ]
+  },
+  {
+    "id": "D04",
+    "lang": "English",
+    "text": "Send the processing fee immediately to prevent your electricity connection from being disconnected.",
+    "expected": [
+      "urgency",
+      "payment"
+    ]
+  },
+  {
+    "id": "D05",
+    "lang": "English",
+    "text": "Your bank statement is ready in the official banking app.",
+    "expected": []
+  },
+  {
+    "id": "D06",
+    "lang": "English",
+    "text": "Never share your OTP or PIN with anyone over the phone.",
+    "expected": []
+  },
+  {
+    "id": "D07",
+    "lang": "English",
+    "text": "Please call me tomorrow when you have time.",
+    "expected": []
+  },
+  {
+    "id": "D08",
+    "lang": "English",
+    "text": "I am from your bank's fraud department. Tell me your card PIN to secure your account.",
+    "expected": [
+      "authority",
+      "otp_pii"
+    ]
+  },
+  {
+    "id": "D09",
+    "lang": "English",
+    "text": "Your payment was received successfully. Thank you.",
+    "expected": []
+  },
+  {
+    "id": "D10",
+    "lang": "English",
+    "text": "Pay this outstanding invoice by the stated due date using the official website.",
+    "expected": []
+  },
+  {
+    "id": "D11",
+    "lang": "Hinglish",
+    "text": "Aapka account aaj band ho jayega. Abhi verify karo.",
+    "expected": [
+      "urgency"
+    ]
+  },
+  {
+    "id": "D12",
+    "lang": "Hinglish",
+    "text": "Refund ke liye apna OTP aur PIN batao.",
+    "expected": [
+      "otp_pii"
+    ]
+  },
+  {
+    "id": "D13",
+    "lang": "Hinglish",
+    "text": "Main police cyber cell se bol raha hoon. Abhi paise transfer karo warna arrest honge.",
+    "expected": [
+      "urgency",
+      "authority",
+      "payment"
+    ]
+  },
+  {
+    "id": "D14",
+    "lang": "Hinglish",
+    "text": "Bijli connection band hone se bachane ke liye abhi fee bhejo.",
+    "expected": [
+      "urgency",
+      "payment"
+    ]
+  },
+  {
+    "id": "D15",
+    "lang": "Hinglish",
+    "text": "Aapka bank statement app par available hai.",
+    "expected": []
+  },
+  {
+    "id": "D16",
+    "lang": "Hinglish",
+    "text": "Apna OTP kisi ke saath share mat karna.",
+    "expected": []
+  },
+  {
+    "id": "D17",
+    "lang": "Hinglish",
+    "text": "Kal meeting 11 baje hai. Please time par aana.",
+    "expected": []
+  },
+  {
+    "id": "D18",
+    "lang": "Hinglish",
+    "text": "Main bank ke security department se hoon. Account secure karne ke liye PIN batao.",
+    "expected": [
+      "authority",
+      "otp_pii"
+    ]
+  },
+  {
+    "id": "D19",
+    "lang": "Hinglish",
+    "text": "Aapka payment successfully receive ho gaya hai.",
+    "expected": []
+  },
+  {
+    "id": "D20",
+    "lang": "Hinglish",
+    "text": "Official app par bill ki due date check kar lena.",
+    "expected": []
+  },
+  
+
+  {
+    "id": "D21",
+    "lang": "Hindi",
+    "text": "आज ही अपना खाता सत्यापित करें, नहीं तो आपका खाता बंद हो जाएगा।",
+    "expected": ["urgency"]
+  },
+  {
+    "id": "D22",
+    "lang": "Hindi",
+    "text": "सत्यापन पूरा करने के लिए कृपया अपना ओटीपी बताइए।",
+    "expected": ["otp_pii"]
+  },
+  {
+    "id": "D23",
+    "lang": "Hindi",
+    "text": "मैं पुलिस साइबर अपराध विभाग से बोल रहा हूँ। अभी पैसे ट्रांसफर करो, वरना तुम्हें गिरफ्तार कर लिया जाएगा।",
+    "expected": ["urgency", "authority", "payment"]
+  },
+  {
+    "id": "D24",
+    "lang": "Hindi",
+    "text": "बिजली का कनेक्शन कटने से बचाने के लिए तुरंत शुल्क भेजें।",
+    "expected": ["urgency", "payment"]
+  },
+  {
+    "id": "D25",
+    "lang": "Hindi",
+    "text": "आपका बैंक स्टेटमेंट आधिकारिक ऐप पर उपलब्ध है।",
+    "expected": []
+  },
+  {
+    "id": "D26",
+    "lang": "Hindi",
+    "text": "अपना ओटीपी या पिन किसी के साथ साझा न करें।",
+    "expected": []
+  },
+  {
+    "id": "D27",
+    "lang": "Hindi",
+    "text": "कल सुबह ग्यारह बजे हमारी बैठक है।",
+    "expected": []
+  },
+  {
+    "id": "D28",
+    "lang": "Hindi",
+    "text": "मैं बैंक के सुरक्षा विभाग से बोल रहा हूँ। अपना पिन बताइए ताकि आपका खाता सुरक्षित किया जा सके।",
+    "expected": ["authority", "otp_pii"]
+  },
+  {
+    "id": "D29",
+    "lang": "Hindi",
+    "text": "आपका भुगतान सफलतापूर्वक प्राप्त हो गया है। धन्यवाद।",
+    "expected": []
+  },
+  {
+    "id": "D30",
+    "lang": "Hindi",
+    "text": "कृपया अपनी सुविधा के अनुसार रिपोर्ट भेज दें।",
+    "expected": []
+  }
+]
+

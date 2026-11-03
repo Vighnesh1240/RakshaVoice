@@ -1,0 +1,26 @@
+{
+  "clean_2s": {
+    "EER": 0.0045227920227920125,
+    "AUC": 0.9998795109211776,
+    "target_trials": 360,
+    "nontarget_trials": 14040
+  },
+  "clean_4s": {
+    "EER": 0.008725071225071209,
+    "AUC": 0.9979156774295664,
+    "target_trials": 360,
+    "nontarget_trials": 14040
+  },
+  "phone_2s": {
+    "EER": 0.016880341880341907,
+    "AUC": 0.9978632478632479,
+    "target_trials": 360,
+    "nontarget_trials": 14040
+  },
+  "phone_4s": {
+    "EER": 0.01691595441595444,
+    "AUC": 0.9992594571066794,
+    "target_trials": 360,
+    "nontarget_trials": 14040
+  }
+}
