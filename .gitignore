@@ -1,4 +1,5 @@
 venv/
+<<<<<<< HEAD
 voice/data/
 voice/pretrained_ecapa/
 voice/enrolled/
@@ -33,3 +34,5 @@ fusion/models/
 *.enc
 
 voice/calibration*.json
+=======
+>>>>>>> 89cc2e6dbe2a45b24b77faa7063085eb50acb0d1
