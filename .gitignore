@@ -34,5 +34,34 @@ fusion/models/
 *.enc
 
 voice/calibration*.json
+
+# Runtime model files tracked with Git LFS
+!audio/models/
+!audio/models/*.json
+!audio/models/*.npy
+!audio/models/*.pt
+!fusion/models/
+!fusion/models/*.json
+!fusion/models/*.pt
+!nlp/models/
+nlp/models/intent_v4_old/
+!nlp/models/intent_v4/
+!nlp/models/intent_v4/*.json
+!nlp/models/intent_v4/*.pt
+!nlp/models/text_v1/
+!nlp/models/text_v1/*.json
+!nlp/models/text_v1/*.npz
+!nlp/models/text_v1/*.pt
+!nlp/models/text_v2/
+!nlp/models/text_v2/*.json
+!nlp/models/text_v2/*.npz
+!nlp/models/text_v2/*.pt
+!nlp/models/text_v3/
+!nlp/models/text_v3/*.json
+!nlp/models/text_v3/*.npz
+!nlp/models/text_v3/*.pt
+!voice/pretrained_ecapa/
+!voice/pretrained_ecapa/*.ckpt
+!voice/pretrained_ecapa/*.yaml
 =======
 >>>>>>> 89cc2e6dbe2a45b24b77faa7063085eb50acb0d1

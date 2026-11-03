@@ -1,0 +1,14 @@
+{
+ "features": [
+  "spoof",
+  "urgency",
+  "authority",
+  "otp_pii",
+  "payment",
+  "voice_mismatch",
+  "voice_active"
+ ],
+ "t_max": 24,
+ "threshold": 0.7,
+ "step_seconds": 2.0
+}

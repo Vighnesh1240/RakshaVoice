@@ -1,0 +1,19 @@
+{
+  "encoder": "google/muril-base-cased",
+  "labels": [
+    "urgency",
+    "authority",
+    "otp_pii",
+    "payment"
+  ],
+  "thresholds": [
+    0.8000000000000002,
+    0.5500000000000002,
+    0.30000000000000004,
+    0.5
+  ],
+  "max_length": 192,
+  "best_validation_loss": 0.48269200325012207,
+  "training_rows": 1605,
+  "synthetic_rows_added": 105
+}
